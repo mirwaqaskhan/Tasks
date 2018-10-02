@@ -1,0 +1,21 @@
+{
+  "name": "care_axiom_task",
+  "version": "1.0.0",
+  "description": "Task for carexiom full stack dev.",
+  "main": "plain.js",
+  "scripts": {
+    "start": "node plain.js",
+    "plain": "node plain.js",
+    "cPromise": "node cPromise.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Waqas Khan",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "q": "^1.5.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
